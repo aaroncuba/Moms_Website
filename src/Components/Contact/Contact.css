@@ -1,0 +1,90 @@
+
+
+input,
+label {
+  display: block;
+}
+
+label {
+  padding-bottom: 15px;
+}
+
+.input-text-fields {
+  border: none;
+  /* border-bottom: 1px solid red; */
+  background-color: rgba(226, 228, 228, 0.616);
+  resize: none;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+
+.contact-form-box {
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-style: solid;
+  border-width: 2.5px;
+  border-color: #5c5c5c9d;
+  width: 200px auto;
+  max-width: 400px;
+  margin-left: auto ;
+  margin-right: auto 60%;
+}
+
+.contact {
+  display: grid;
+  margin: 4rem 0;
+}
+
+.contact-full-display{
+  background-color: #f8f8f8; 
+  padding-top: 40px;
+}
+
+.contact-image {
+  background-image: url("../../../public/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  filter: drop-shadow(8px 10px 16px rgba(0, 0, 0, 0.792));
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-top: 25px;
+  font-size: 1.1rem;
+  background-color: #5BB462;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+}
+.btn:hover {
+  background-color: #27ae60;
+}
+
+@media screen and (max-width:940px) {
+  .contact {
+    display: block;
+    
+  }
+  img {
+    display: none;
+  }
+}
