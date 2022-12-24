@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
-import Typed from "typed.js";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 const Home = () => {
   const el = useRef(null);
@@ -11,12 +10,11 @@ const Home = () => {
 
   const closeMenu = () => setClick(false);
 
-
   return (
-    <div className="hero" id='hero'>
+    <div className="hero" id="hero">
       <div className="content">
-        <p>Health Insurance</p>
-        <p>Security for you and your family without stressing your wallet</p>
+        <p>Seguro Médico</p>
+        <p>Seguridad para ti y tu familia sin estrezar tu cartera</p>
       </div>
     </div>
   );
