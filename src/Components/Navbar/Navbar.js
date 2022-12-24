@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <nav className="navbar">
-        <a href="favicon.ico" className="logo"></a>
+        <a href="/" className="logo"></a>
         <div className="hamburger" onClick={handleClick}>
           {click ? (
             <FaTimes size={30} style={{ color: "#ffffff" }} />
@@ -62,14 +62,14 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link
-              to="experiences"
+              to="benefits"
               spy={true}
               smooth={true}
               offset={-90}
               duration={500}
               onClick={closeMenu}
             >
-              Experience
+              Benefits
             </Link>
           </li>
           <li className="nav-item">

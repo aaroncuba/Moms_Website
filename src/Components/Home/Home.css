@@ -68,8 +68,8 @@
     .hero .content {
         position: absolute;
         bottom: -180px;
-        margin-left: 30%;
-
+        margin-left: 35%;
+        text-align: center;
     }
     
   }

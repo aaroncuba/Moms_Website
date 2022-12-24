@@ -15,26 +15,27 @@ const About = () => {
         </div>
 
         <div className="col-2">
-          <h2>We take care of everything and facilitate the way</h2>
+          <h2>Nos encargamos de todo y facilitamos el camino</h2>
           <span className="line"></span>
           <p>
             <p className="text-format-1">
-              The United States offers the widest range of health insurance, but
-              unfortunately most people are unaware of it and do not get the
-              most out of their insurance.
+              Estados Unidos brinda la más amplia gama de seguros médicos pero
+              desgraciadamente la mayor parte de las personas los desconocen y
+              no sacan el mayor provecho de su seguro.
             </p>
             <p className="text-format-1">
-              An example: ObamaCare, many people are unaware of its benefits and
-              especially how to qualify to subscribe.
+              Un ejemplo: ObamaCare, muchas personas desconocen sus beneficios y
+              sobre todo cómo calificar para suscribirse.
             </p>
             <p className="text-format-1">
-              But don't worry, you'll have an ObamaCare expert on your side, as
-              well as access to the best plans that insurers can offer.
+              Pero tranquilo tendrás un experto en ObamaCare de tu lado, además
+              de acceso a los mejores planes que las aseguradoras pueden
+              ofrecer.
             </p>
           </p>
           <p className="text-format-2">
-            We put at your disposal expert advisors with the human touch that
-            will earn your trust
+            Ponemos a tu disposición asesores expertos con el toque humano que
+            ganará tu confianza
           </p>
           <a
             href="https://www.linkedin.com/in/aaron-estevanez-6b0b1a167/"

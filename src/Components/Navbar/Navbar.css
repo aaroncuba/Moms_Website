@@ -12,7 +12,9 @@
 .header-bg {
     background-color: rgba(0, 0, 0, 0.918);
 }
-
+.logo {
+    background-image: url('D:\SynologyDrive\NAS1_2022\cmder\RNCourse\Website\mom_website\mom_website\public\favicon.ico');
+}
 
 .header .navbar {
     display: flex;
